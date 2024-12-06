@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Exercicio 4</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                height: 100vh;
+                position: relative;
+            }
+            .background {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9zEh4nrafiB4_uL8f0ioE1dfvmC_JgDN4nw&s");
+                background-repeat: no-repeat;
+                background-size: cover;
+                opacity: 0.3;
+                z-index: -1; 
+            }
+            .titulo1 {
+                text-align: center;
+                color: black;
+                font-size: 35px;
+            }
+            .texto1 {
+                text-align: justify;
+                color: blue;
+                font-size: 30px;
+                margin-right: 25px;
+                margin-left: 25px;
+            }
+            button {
+                font-size: 20px;
+                color: hotpink;
+                background: #007bff;
+                border-radius: 15px;
+                padding: 10px 20px;
+                border: none;
+                cursor: pointer;
+            }
+            button:hover {
+                background: yellowgreen;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="background"></div>
+        <h1 class="titulo1">LEI GERAL DE PROTEÇÃO DE DADOS</h1>
+        <br>
+        <p class="texto1">A LGPD como é conhecida veio para garatir o minimo de integridade
+            aos usuarios de internet e serviços que necessitem de consultas a dados sigilosos,
+            tanto na esfera civil quanto na criminal, pessoa fisica ou pessoa juridica.
+        </p>
+        <br>
+        <p class="texto1">
+            Ela veio de um conjunto de leis e normas originaos da europa, surgiu em meados de 2008,
+            e se consolidou em 2010, sofreu algumas auterações anos mais tarde, e agora tramita no
+            senado algumas alterações pesadas, pelas quais a BigTechs internacionais cogitam abandonar
+            o solo brasileiro.
+        </p>
+        <br>
+        <p class="texto1">
+            Agora ela vem para garantir que havera uma panela no fogo com 3 copos de agua fervente,
+            para se despejar o miojo de tomate ou frango, após aguardar 3 minutos retirar do fogo,
+            saltear o tempero, mexer bem, escoer o excesso de agua e servir com cebolinha e salsa picada.
+        </p>
+        <br>
+
+        <button onclick="abacate()">Crica aki Xovems</button>
+        <br>
+        <br>
+        <button onclick="laranja()">naoSei</button>
+
+        <script>
+            function abacate() {
+                alert("Olá Mundo");
+            }
+            function laranja() {
+                let naoSei = prompt("Diga seu nome");
+                alert("Seja bem vindo " +naoSei);
+            }
+        </script>
+
+    </body>
+</html>

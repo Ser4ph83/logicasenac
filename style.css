@@ -1,0 +1,332 @@
+/*Codigos do exercico 5
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://istoedinheiro.com.br/wp-content/uploads/sites/17/2024/06/05-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+}
+header {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoRWPcWE1Ldr0L_27kUPD6ZH6UVN1315GnXA&s");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 30px 0;
+    box-sizing: border-box;
+}
+header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+header h1 {
+    font-size: 40px;
+    margin: 0;
+    z-index: 2; 
+    position: relative;
+}
+header p {
+    font-size: 20px;
+    margin: 10px 0 0;
+    z-index: 2;
+    position: relative;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.button {
+    font-size: 18px;
+    color: rgb(2, 2, 2);
+    background: #5ed9f8;
+    border-radius: 15px;
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+}
+.button:hover {
+    background: yellowgreen;
+}
+.image-container img {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #39ff08;
+    color: gray;
+    text-align: center;
+    padding: 10px;
+}
+/* fim do codigo exercicio 5 */
+
+/* Codigos do exercicio 6
+.background2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://s2-techtudo.glbimg.com/1Z4nsLSERFvPv5H91noM-oabvYU=/0x0:1280x750/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2022/C/T/px9C5WSAKri5yFHECBZw/subway-surfers-revenue.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.titulo1a {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+
+.texto1a {
+    font-size: 30px;
+    text-align: justify;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/*fim exercicio 6*/
+
+/*inicio exercicio 7
+.background3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://www.publicitarioscriativos.com/wp-content/uploads/2021/07/Untitled-3-8.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.h17 {
+    font-size: 52px;
+    color: rgb(3, 3, 3);
+    text-align: center;
+}
+
+.p7 {
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.btn7 {
+    font-size: 30px;
+    border-radius: 15px;
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+}
+*/
+/* Resetando margens e padding para garantir consistência no layout
+/* Resetando margens e padding para garantir consistência no layout 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do corpo */
+/*body {
+    background-color: #f4f4f9;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container principal da calculadora 
+.calculator {
+    background-color: #333;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 280px;
+    padding: 20px;
+} */
+
+/* Display da calculadora (onde aparecem os números e resultados) 
+.display {
+    background-color: #222;
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: right;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 60px;
+    line-height: 60px;
+    word-wrap: break-word;
+}
+
+/* Estilo geral dos botões 
+.button {
+    background-color: #444;
+    color: white;
+    font-size: 1.5rem;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* Mudança de cor ao passar o mouse sobre os botões
+.button:hover {
+    background-color: #555;
+}
+
+/* Estilo para os botões de operação (+, -, *, /)
+.button:active {
+    background-color: #777;
+}
+
+/* Estilo para o botão de 'C' (Limpar)
+.button:focus {
+    outline: none;
+    background-color: #e74c3c;
+}
+
+.button:focus:hover {
+    background-color: #c0392b;
+}
+
+/* Estilo do container dos botões
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+/* Ajustando o layout da calculadora para que os botões fiquem responsivos
+@media (max-width: 320px) {
+    .calculator {
+        width: 250px;
+        padding: 15px;
+    }
+
+    .display {
+        font-size: 2rem;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .button {
+        font-size: 1.2rem;
+        width: 50px;
+        height: 50px;
+    }
+}*/
+/* final */
+
+/* exercicio 8 */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.background8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://i.ytimg.com/vi/cnekWkNXAfU/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+h1#texto {
+    text-align: center;
+    font-size: 80px;
+    margin-top: 25px;
+}
+h2 {
+    text-align: center;
+    font-size: 35px;
+}
+p {
+    text-align: center;
+    font-size: 25px;
+    color: #333;
+    margin: 20px 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.box {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(248, 138, 138, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input, button {
+    padding: 10px;
+    margin: 10px 0;
+    width: 200px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    color: rgb(254, 37, 3);
+    font-size: 25px;
+    text-align: center;
+}
+button {
+    cursor: pointer;
+    background-color: #11f6f6;
+    color: black;
+    border: none;
+}
+button:hover {
+    background-color: #f62e13;
+}
